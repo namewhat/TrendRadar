@@ -1,0 +1,36 @@
+
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.idea/
+.vscode/
+dist/
+build/
+*.egg-info/
+# Ignore log files
+logs/
+# Ignore database files
+*.db
+# Ignore coverage reports
+coverage/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+# Ignore pytest cache
+.pytest_cache/
+# Ignore mypy cache
+.mypy_cache/
+# Ignore Sphinx documentation build
+docs/_build/
+# Ignore Jupyter Notebook outputs
+*.ipynb
+# Ignore local configuration files
+config.yaml
+# Ignore sensitive data files
+secrets.yaml
+# Ignore compiled C extensions
+*.so
